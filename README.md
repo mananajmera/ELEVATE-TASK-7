@@ -37,9 +37,28 @@ This document outlines the steps taken to review and secure the browser by audit
    - Other extensions like Google Docs Offline and Cookie-Editor were considered safe and/or essential based on use.
 
 5. **Removed Suspicious or Unnecessary Extensions**  
-   _Actions Taken:_  
-   - [ ] FoxyProxy – **Pending Review**  
-   - [ ] McAfee WebAdvisor – **Pending Removal if unused**
+     After a detailed evaluation of the installed extensions, no extensions were removed during this audit. Each extension was determined to be actively used and contributes to specific tasks or workflows. Below 
+     is a breakdown of their usage:
+
+     ✅ Cookie-Editor
+     Usage: Frequently used for testing cookies during web development or security testing.
+     Reason to Keep: Provides granular control over cookies, which is essential for debugging or simulating user sessions.
+
+     ✅ FoxyProxy
+     Usage: Used to manage and switch between different proxy configurations.
+     Reason to Keep: Valuable for network testing, geolocation spoofing, or accessing services behind restricted networks.
+
+     ✅ Google Docs Offline
+     Usage: Enables offline access to Google Drive documents.
+     Reason to Keep: Critical for productivity during internet outages or travel, especially for users relying on Google Workspace.
+
+     ✅ McAfee WebAdvisor
+     Usage: Offers real-time protection by warning users about potentially dangerous websites.
+     Reason to Keep: Adds an extra layer of browser security; useful for users frequently navigating unfamiliar web content.
+ 
+     ✅ Wappalyzer - Technology Profiler
+     Usage: Used to detect frameworks, CMSs,analytics tools, and other technologies behind websites.
+     Reason to Keep: Important for reconnaissance in cybersecurity, competitive research, or technical evaluation of websites.
 
 6. **Restarted the Browser**  
    Browser was restarted to ensure changes took effect and to assess performance improvements.
@@ -49,9 +68,9 @@ This document outlines the steps taken to review and secure the browser by audit
    - Some malicious extensions may track user data, inject ads, or redirect traffic.
 
 8. **Documented Changes**  
-   _Changes Log:_  
-   - No extensions removed yet — final decision pending usage needs and security analysis.
-   - This README serves as documentation of the audit process.
+   All extensions were reviewed for purpose, security, and usage frequency. Based on this review:
+  - No unnecessary or suspicious extensions were found.
+  - All extensions are currently used in regular tasks and deemed safe based on public reviews and permissions requested.
 
 ## Recommendations
 
